@@ -12,6 +12,16 @@ projects:
       tags:
         default: "0.0.0"
 
+  - name: "Example2"
+    root: "example2"
+    changelog: "CHANGELOG.html"
+    id: 2
+    tag_prefix: "example-versio.with-dot"
+    labels: Example2
+    version:
+      tags:
+        default: "0.0.0"
+
 sizes:
   use_angular: true
   fail: ["*"]
