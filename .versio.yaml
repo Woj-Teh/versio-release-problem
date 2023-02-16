@@ -1,6 +1,17 @@
 options:
   prev_tag: "versio-prev"
 
+projects:
+  - name: "Example"
+    root: "example"
+    changelog: "CHANGELOG.html"
+    id: 1
+    tag_prefix: "example-versio"
+    labels: Example
+    version:
+      tags:
+        default: "0.0.0"
+
 sizes:
   use_angular: true
   fail: ["*"]
