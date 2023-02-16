@@ -16,7 +16,7 @@ projects:
     root: "example2"
     changelog: "CHANGELOG.html"
     id: 2
-    tag_prefix: "example-versio.with-dot"
+    tag_prefix: "example-versio-without-dot"
     labels: Example2
     version:
       tags:
